@@ -35,6 +35,8 @@ User-Agent: <set user agent>
 ```
 I didn't researched more about the `clientVersion` in the body. Maybe it is a thing, that should be adapted every `n` months or years?  
 
+If the response is something like `Preconditions failed`, then YT changed the requirements of the request.  
+
 # 3. Response
 The response is using JSON and here's an example for accessing some items:
 ```python
