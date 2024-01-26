@@ -4,7 +4,7 @@ So I researched an anonymous alternative, and boiled down the request header & b
 
 ## 1. Get the 'Guest' API Key
 **GET-Request:** https://www.youtube.com/?themeRefresh=1  
-Search the response for: "INNERTUBE_API_KEY":"{key}"  
+Search the response for: `"INNERTUBE_API_KEY":"<guest key>"`  
 
 You don't need a JS engine for that!
 
