@@ -1,6 +1,9 @@
 # Anonymous YT Search
 I wanted to search YouTube without an account or API key via Google Cloud, while getting the search results as a JSON response.  
-So I researched an anonymous alternative, and boiled down the request header & body to the mandatory items.
+So I researched an anonymous alternative, and boiled down the request header & body to the mandatory items.  
+
+> [!Warning]
+> *This approach might change over time, if Youtube decides to change their APIs or payload/header requirements*
 
 ## 1. Get the 'Guest' API Key
 **GET-Request:** `https://www.youtube.com/?themeRefresh=1`  
