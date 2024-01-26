@@ -3,13 +3,13 @@ I wanted to search YouTube without an account or API key via Google Cloud.
 So I researched an anonymous alternative, and boiled down the request header & body to the mandatory items.
 
 ## 1. Get the 'Guest' API Key
-**GET-Request:** https://www.youtube.com/?themeRefresh=1  
-Search the response for: `"INNERTUBE_API_KEY":"<guest key>"`  
+**GET-Request:** `https://www.youtube.com/?themeRefresh=1`  
+Search the response for: `"INNERTUBE_API_KEY":"<guest API key>"`  
 
 You don't need a JS engine for that!
 
 ## 2. Search 
-**POST-Request:** https://www.youtube.com/youtubei/v1/search?key=<guest_API_key>&prettyPrint=false  
+**POST-Request:** `https://www.youtube.com/youtubei/v1/search?key=<guest API key>&prettyPrint=false`  
 
 ### Header
 ```text
